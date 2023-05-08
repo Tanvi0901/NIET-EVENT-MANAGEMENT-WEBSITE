@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="main">
+<div class="container">
+    <a href="student_login.html">
+    <div class="slide-right"><i class='fas fa-user-graduate' style='font-size:46px'>
+    </i>
+    </div>
+</a>
+</div>
+<div class="container2">
+    <a href="admin_login.html">
+    <div class="slide-left"><i class='fas fa-user-cog' style='font-size:46px'>
+    </i>
+    </div>
+</a>
+</div>
+</div>
+<div class="both">
+    <div class="slide-rightt">
+<p class="student"><strong>STUDENT</strong></p>
+</div>
+<div class="slide-leftt">
+    <p class="admin"><strong>ADMIN</strong></p> 
+</div> 
+
+</div>
+</body>
+</html>

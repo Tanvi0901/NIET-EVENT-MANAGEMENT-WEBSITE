@@ -1,0 +1,87 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create Event</title>
+  <link rel="stylesheet" href="createform.css">
+</head>
+<body>
+ <img src="logo.png"  width = "150px" height="80px" top="20px" left="0px" class="logo">
+    <div class="background-image"></div>
+  <div class="container">
+  
+    <h2>CREATE EVENT</h2>
+    <form action="createvent" method="post">
+      <label for="event-name">EVENT NAME:</label>
+      <input type="text" id="event-name" name="event-name" required>
+
+      <label for="event-date">EVENT DATE:</label>
+      <input type="date" id="event-date" name="event-date" style="width: 97%;" required>
+
+      <label for="event-location">EVENT LOCATION:</label>
+      <input type="text" id="event-location" name="event-location" required>
+
+      <label for="event-type">TYPE OF EVENT:</label>
+      <select id="event-type" name="event-type" required>
+        <option value="culture">Cultural</option>
+        <option value="sport">Sports</option>
+        <option value="art">Arts</option>
+        <option value="social">Social</option>
+        <option value="technical">Technical</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="organizing-club">ORGANIZING CLUB:</label>
+      <select id="organizing-club" name="organizing-club" required>
+        <option value="club1">Select Club Name</option>
+        <option value="NIET Cricket Club">NIET Cricket Club</option>
+        <option value="NIET FootBall Club">NIET FootBall Club</option>
+        <option value="NIET VolleyBallL Club">NIET VolleyBallL Club</option>
+        <option value="NIET BasketBall Club">NIET BasketBall Club</option>
+        <option value="NIET Indoor Games (Boys, Girls)">NIET Indoor Games (Boys, Girls) </option>
+        <option value="NIET Kabbadi Club">NIET Kabbadi Club </option>
+        <option value="NIET Yoga Club">NIET Yoga Club </option>
+        <option value="club3">NIET  Athletics Club </option>
+        <option value="club3">Dance Club</option>
+        <option value="club3">Music Club</option>
+        <option value="club3">Theatre Club </option>
+        <option value="club3">Editorial Club</option>
+        <option value="club3">Kalakriti -Fine Arts and Paint Club</option>
+        <option value="club3">Megapixels-Photography Club</option>
+        <option value="club3">Jetsetters: Youth Tourism Club</option>
+        <option value="club3">Khushiya Baato Club </option>
+        <option value="club3">Green Gold Club</option>
+        <option value="club3">CodeTronics</option>
+        <option value="club3">IETE Students Forum</option>
+        <option value="club3">REBOOT: Code eN-Coders</option>
+        <option value="club3">Technocrafts Club</option>
+        <option value="club3">ISTE (Indian Society of Technical Education)</option>
+        <option value="club3">CSI</option>
+        <option value="club3">NIET Coding Club</option>
+        <option value="club3">ProNetiX</option>
+        <option value="club3">Google Developers Students Club </option>
+        <option value="club3">CodeChef NIET Chapter</option>
+        <option value="club3">The Mindbenders</option>
+        <option value="club3">EmergeX </option>
+        <option value="club3">DODGE Gaming</option>
+        <option value="club3">DLT Club</option>
+        <option value="club3">AWS Club</option>
+        <option value="club3">CYBERHACK Club</option>
+        <option value="club3">Design Thinkers Club</option>
+        <option value="club3">Signodes</option>
+        <option value="club3">DNA society of Biotechnology</option>
+        <option value="club3">Electrifier</option>
+        <option value="club3">CHESS (Chemical Engineering Student Society)</option>
+      </select>
+
+      <label for="file-upload">POSTER UPLOAD:</label>
+      <input type="file" id="file-upload" name="file-upload">
+
+
+      <input type="submit" value="Create Event">
+    </form>
+  </div>
+</body>
+</html>

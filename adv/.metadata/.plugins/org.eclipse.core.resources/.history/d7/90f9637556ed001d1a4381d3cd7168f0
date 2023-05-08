@@ -1,0 +1,151 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create Admin Login</title>
+    <link rel="stylesheet" href="createeve.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="hero">
+        <img src="logo.png" alt="" class="logo">
+        <p class="events">EVENTS</p>
+        <nav>
+            <ul>
+                <li><a href="index.jsp">Home</a></li>
+                <li><a href="clubs.jsp">Clubs</a></li>
+                <li><a href="cover.jsp">Login</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- FEATURED EVENTS -->
+<div class="eventc">
+    <div class="present">
+        <h2>FEATURED EVENTS</h2>
+        <hr>        
+    </div>
+    <div class="main">
+        <div class="wrapper">
+            <div class="card" id="myBtn"><img src="pronetixevent.png">
+              <div class="info">
+                <h1>Tech-New-Kal</h1>
+                <p>PRONETIX</p>
+              </div>
+            </div>
+            <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <img src="pronetixevent.png" alt="" class="popcard">
+                  <div class="content">
+                    <h1 class="club-name">TECH-NEW-KAL</h1>
+                  <p class="para">
+                    Juventas is the oldest dance club of NIET. 
+This club encourage the students to showcase their talent in dance under any dance form with fun.</p>
+                    <p class="president">
+                      President: 
+                      <p class="president_name">
+                        Aditya Vikram Singh
+                      </p>
+                      <p class="contact-president">
+                        Contact:- +91 7827482395
+                      </p>
+                      
+                    </p>
+                    <p class="Faculty">
+                      Faculty Incharge: 
+                      <p class="faculty_name">
+                        Ms Aditee Mattoo, AP,  CSE Deptt
+                      </p>
+                      <a href="registration.jsp"><button value="submit" class="button" >REGISTER NOW</button></a>
+                  </div>
+                  
+                </div>
+                <!-- <button value="submit">GALLERY</button> -->
+              </div>
+            
+            <div class="card"><img src="Sanskriti.jpg"/>
+              <div class="info">
+                <h1>SANSKRITI</h1>
+                <p>KHUSHIYA BAATON</p>
+              </div>
+            </div>
+            <div class="card"><img src="hack-niet.png"/>
+              <div class="info">
+                <h1>HACK-X-NIET</h1>
+                <p>GDSC</p>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- UPCOMING EVENTS -->
+    <div class="present">
+        <h2>UPCOMING  EVENTS</h2>
+        <hr>        
+    </div>
+    <div class="main">
+        <div class="wrapper">
+            <div class="card"><img src="greenry.png">
+              <div class="info">
+                <h1>Event Name</h1>
+                <p>HID</p>
+              </div>
+            </div>
+            <div class="card"><img src="juv.png"/>
+              <div class="info">
+                <h1>Event Name</h1>
+                <p>MEGAPIXELS</p>
+              </div>
+            </div>
+            <div class="card"><img src="reelscape.png"/>
+              <div class="info">
+                <h1>Event Names</h1>
+                <p>REBOOT</p>
+                <p></p>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- PAST EVENTS -->
+    <div class="past">
+        <h2>CREATE   EVENTS</h2>
+        <hr>        
+    </div>
+    <div class="main">
+        <div class="wrapper">
+          <a href="createform.jsp" style="text-decoration: none;">
+            <div class="card"><img src="plus.png">
+              <div class="info">
+                <h1>CREATE EVENT</h1>
+                
+              </div>
+            </div>
+          </a>
+            
+           
+    </div>
+  </div>
+    <div class="about">
+      <div class="logo2">
+        <img src="logo.png" alt="" class="footerlogo">
+      </div>
+      <div class="contact">
+        <p><a href="tel:+4733378901" class="phone"><i class="fa fa-phone" style="font-size:48px;color: black"></i></a></p>
+        <p class="icon">CALL US</p>
+  
+  
+        <p><a href="mailto:0901tanvi@gmail.com" class="mail"><i class="fa fa-envelope" style="font-size:48px;color:black"></i></a></p>
+        <p class="icon">MAIL US</p>
+  
+  
+        <p><a href="https://wa.me/917895715075" class="whatsapp"><i class="fa fa-whatsapp" style="font-size:48px;color:black"></i></i></a></p>
+        <p class="icon">WHATSAPP US</p>
+        
+      </div>
+    </div>
+    <script src="createvent.js"></script>
+</body>
+</html>

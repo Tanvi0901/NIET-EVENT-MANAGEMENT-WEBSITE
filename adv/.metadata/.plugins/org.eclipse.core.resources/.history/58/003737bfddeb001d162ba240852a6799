@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div id="login-box">
+    <div class="left">
+      <h1>Sign up</h1>
+      <form onSubmit="return checkPassword(this)" method="POST">
+        <div class="error-text"></div>
+        
+        <input type="email" name="email" placeholder="E-mail" />
+        <input type="password" name="password" placeholder="Password" />
+        <input type="password" name="password2" placeholder="Confirm password" />
+        
+        <input type="submit" name="signup_submit" value="Sign up" onclick="checkPassword(form)" />
+      </form>
+      
+    </div>
+    
+    <div class="right">
+      <img src="https://media.giphy.com/media/gHPOb1fEVWu5GHL2tk/giphy.gif" alt="" style="height: 300px; width: 250px;">
+    </div>
+    <!-- <div class="or">OR</div> -->
+  </div>
+</body>
+</html>

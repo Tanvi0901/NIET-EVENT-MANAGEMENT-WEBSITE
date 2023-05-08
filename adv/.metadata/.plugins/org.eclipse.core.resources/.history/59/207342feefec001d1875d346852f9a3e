@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+
+
+body {
+  background: url("/images/image.jpg") no-repeat ;
+  background-size:cover;
+ 
+  color: hsl(0, 100%, 100%);;
+  
+}
+
+      /* basic styling for the form */
+      form {
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 2rem;
+        padding: 20px;
+        background-color:#eaf0f23d;
+        border-radius: 10px;
+      }
+
+      /* styling for the form fields */
+      label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      input[type="text"], input[type="tel"], select {
+        width: 97%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+      }
+
+      /* styling for the submit button */
+      button {
+        background-color: #141bea;
+        color: #3ec8e8;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 40%;
+        height: 40%;
+        color: white;
+        justify-content: center;
+        font-size: larger;
+        margin-left: 30%;
+      }
+
+      button:hover {
+        background-color: rgb(250, 250, 197);
+        color: black;
+      }

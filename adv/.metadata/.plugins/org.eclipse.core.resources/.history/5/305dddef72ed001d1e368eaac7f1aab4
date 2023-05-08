@@ -1,0 +1,94 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+ pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>File Upload Servlet JSP JDBC MySQL Example</title>
+<link
+ href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+ rel="stylesheet"
+ integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+ crossorigin="anonymous">
+</head>
+<body>
+
+ <img src="logo.png"  width = "150px" height="80px" top="20px" left="0px" class="logo">
+    <div class="background-image"></div>
+  <div class="container">
+  
+    <h2>CREATE EVENT</h2>
+    <form method="post" class="form-group" action="uploadServlet"
+     enctype="multipart/form-data">
+      <label for="event-name">EVENT NAME:</label>
+      <input type="text" id="event-name" name="event-name" required>
+
+      <label for="event-date">EVENT DATE:</label>
+      <input type="date" id="event-date" name="event-date" style="width: 97%;" required>
+
+      <label for="event-location">EVENT LOCATION:</label>
+      <input type="text" id="event-location" name="event-location" required>
+
+      <label for="event-type">TYPE OF EVENT:</label>
+      <select id="event-type" name="event-type" required>
+        <option value="culture">Cultural</option>
+        <option value="sport">Sports</option>
+        <option value="art">Arts</option>
+        <option value="social">Social</option>
+        <option value="technical">Technical</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="organizing-club">ORGANIZING CLUB:</label>
+      <select id="organizing-club" name="organizing-club" required>
+        <option value="club1">Select Club Name</option>
+        <option value="NIET Cricket Club">NIET Cricket Club</option>
+        <option value="NIET FootBall Club">NIET FootBall Club</option>
+        <option value="NIET VolleyBallL Club">NIET VolleyBallL Club</option>
+        <option value="NIET BasketBall Club">NIET BasketBall Club</option>
+        <option value="NIET Indoor Games (Boys, Girls)">NIET Indoor Games (Boys, Girls) </option>
+        <option value="NIET Kabbadi Club">NIET Kabbadi Club </option>
+        <option value="NIET Yoga Club">NIET Yoga Club </option>
+        <option value="NIET  Athletics Club">NIET  Athletics Club </option>
+        <option value="Dance Club">Dance Club</option>
+        <option value="Music Club">Music Club</option>
+        <option value="Theatre Club">Theatre Club </option>
+        <option value="Editorial Club">Editorial Club</option>
+        <option value="Kalakriti -Fine Arts and Paint Club">Kalakriti -Fine Arts and Paint Club</option>
+        <option value="Megapixels-Photography Club">Megapixels-Photography Club</option>
+        <option value="Jetsetters: Youth Tourism Club">Jetsetters: Youth Tourism Club</option>
+        <option value="Khushiya Baato Club">Khushiya Baato Club </option>
+        <option value="Green Gold Club">Green Gold Club</option>
+        <option value="CodeTronics">CodeTronics</option>
+        <option value="IETE Students Forum">IETE Students Forum</option>
+        <option value="REBOOT: Code eN-Coders">REBOOT: Code eN-Coders</option>
+        <option value="Technocrafts Club">Technocrafts Club</option>
+        <option value="ISTE (Indian Society of Technical Education)">ISTE (Indian Society of Technical Education)</option>
+        <option value="CSI">CSI</option>
+        <option value="NIET Coding Club">NIET Coding Club</option>
+        <option value="ProNetiX">ProNetiX</option>
+        <option value="Google Developers Students Club">Google Developers Students Club </option>
+        <option value="CodeChef NIET Chapter">CodeChef NIET Chapter</option>
+        <option value="The Mindbenders">The Mindbenders</option>
+        <option value="EmergeX">EmergeX </option>
+        <option value="DODGE Gaming">DODGE Gaming</option>
+        <option value="DLT Club">DLT Club</option>
+        <option value="AWS Club">AWS Club</option>
+        <option value="CYBERHACK Club">CYBERHACK Club</option>
+        <option value="Design Thinkers Club">Design Thinkers Club</option>
+        <option value="Signodes">Signodes</option>
+        <option value="DNA society of Biotechnology">DNA society of Biotechnology</option>
+        <option value="Electrifier">Electrifier</option>
+        <option value="CHESS (Chemical Engineering Student Society)">CHESS (Chemical Engineering Student Society)</option>
+      </select>
+
+      <label for="file-upload">POSTER UPLOAD:</label>
+      <input type="file" id="file-upload" name="file-upload">
+
+
+      <input type="submit" value="Create Event">
+    </form>
+  </div>
+</body>
+</html>

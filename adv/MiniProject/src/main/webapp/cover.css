@@ -1,0 +1,131 @@
+@charset "ISO-8859-1";
+*{
+    background-color: rgb(91, 223, 201);
+    /* background-image: url(https://media.giphy.com/media/7VzgMsB6FLCilwS30v/giphy-downsized-large.gif);    
+    background-repeat: no-repeat;
+    position: absolute; */
+}
+.container{
+    /* display: flex; */
+    height: 40vh;
+    width: 50%;
+    /* border: 2px solid black; */
+  }
+  .slide-right:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .slide-right{
+    transition: transform 0.5s;
+  }
+  .slide-left:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .slide-left{
+    transition: transform 0.5s;
+  }
+  .container2 {
+    /* display: flex; */
+    height: 40vh;
+    width: 50%;
+    /* border: 2px solid black; */
+  }
+.main{
+    display: flex;
+}
+i{
+    margin-left: 28%;
+    margin-top: 30%;
+    color: black;
+}
+/* STUDENT */
+.slide-right {
+border-radius: 50%;
+box-shadow: 0px 0px 0px 20px white, 0px 0px 0px 40px aquamarine;
+width: 100px;
+height:100px;
+margin: 4em;
+margin: 35%;
+rotate: 359deg;
+transition: time 0.5sec;
+}
+
+.slide-right {
+animation: 2s slide-right;
+}
+@keyframes slide-right {
+from {
+    margin-left: -50%;
+}
+to {
+    margin-left: 35%;
+}
+}
+/* ADMIN */
+.slide-left {
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 20px white, 0px 0px 0px 40px aquamarine;
+    width: 100px;
+    height:100px;
+    margin: 4em;
+    margin: 35%;
+}
+.slide-left {
+    animation: 2s slide-left;
+  }
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 35%;
+    }
+  }
+  
+.both p{
+    font-size: 25px;
+    color: black;
+    
+}
+.line{
+    display: flex;
+    margin: 3em;
+}
+.both{
+    /* border: 2px solid black; */
+    margin-left: 10%;
+    margin-top: 10%;
+    display: flex;
+    column-gap: 55%;
+}
+
+.student{
+    padding-left: 70%;
+}
+
+.slide-rightt {
+    animation: 2s slide-rightt;
+    }
+    @keyframes slide-rightt {
+    from {
+        margin-left: -50%;
+    }
+    to {
+        margin-left: 0%;
+    }
+    }
+
+.slide-leftt{
+    animation: 2s slide-leftt;
+    /* border: 2px solid  black; */
+    /* margin-left: 55%; */
+}
+@keyframes slide-leftt {
+from {
+    margin-left: 100%;
+}
+to {
+    margin-left: 0%;
+}
+}

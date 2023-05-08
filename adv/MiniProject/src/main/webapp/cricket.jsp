@@ -1,0 +1,355 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sports Clubs</title>
+    <link rel="stylesheet" href="cricket.css">
+</head>
+<body>
+<div class="hero">
+        <img src="logo.png" alt="" class="logo">
+        <p class="club">SPORT CLUBS</p>
+        <nav>
+            <ul>
+                <li><a href="index.jsp">Home</a></li>
+                <li><a href="clubs.jsp">Clubs</a></li>
+                <li><a href="cover.jsp">Login</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="extra">
+        
+    </div>
+    <div class="main">
+        <div class="wrapper">
+            <div class="card" id="myBtn"><img src="cricket2.png">
+              <div class="info">
+                <h2>CRICKET CLUB</h2>
+              </div>
+            </div>
+            <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <img src="cricket2.png" alt="" class="popcard">
+                  <div class="content">
+                    <h1 class="club-name">Cricket Club</h1>
+                  <p class="para">
+                    The Cricket Club provides opportunities for individuals of all ages and skill levels to participate in the sport of cricket. These clubs typically offer training and coaching programs, organize competitive matches and tournaments, and foster a sense of community among their members Our aim is  to promote the sport of cricket and develop players' skills, teamwork, and sportsmanship.</p>
+                    <p class="president">
+                      President: 
+                      <p class="president_name">
+                        Shubhendu Parashar 
+                      </p>
+                      <p class="contact-president">
+                        Contact:- +91 7544069162
+                      </p>
+                      
+                    </p>
+                    <p class="Faculty">
+                      Faculty Incharge: 
+                      <p class="faculty_name">
+                        Mr. Tarun Kumar, AP, ME Deptt.
+                      </p>
+                  </div>
+                  
+                </div>
+                <!-- <button value="submit">GALLERY</button> -->
+              </div>
+
+<!-- PRONETIX-CARD-------------------- -->
+            <div class="card" id="myBtn2"><img src="volleyball.png"/>
+              <div class="info">
+                <h1>VOLLEYBALL CLUB</h1>
+              </div>
+            </div>
+            <div id="myModal2" class="modal2">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close2">&times;</span>
+                <img src="volleyball.png" alt="" class="popcard">
+                <div class="content">
+                  <h1 class="club-name">Volleyball Club</h1>
+                <p class="para">
+                  Volleyball is a sports Club that provides opportunities for individuals of all ages and skill levels to participate in the sport of volleyball. The club typically offer training and coaching programs, organize competitive matches and tournaments, and foster a sense of community among their members. Our aim is to promote the sport of volleyball and develop players' skills, teamwork, and sportsmanship.</p>
+                  <p class="president">
+                    President: 
+                    <p class="president_name">
+                      Chirag Deol 
+                    </p>
+                    <p class="contact-president">
+                      Contact:- +91 9781028408
+                    </p>
+                    
+                  </p>
+                  <p class="Faculty">
+                    Faculty Incharge: 
+                    <p class="faculty_name">
+                      Ms. Khushboo, AP, ECE
+                    </p>
+                    
+                    
+                  </p>
+                </div>
+                
+              </div>
+              <!-- <button value="submit">GALLERY</button> -->
+            </div>
+<!-- ISTE CLUB------------------ -->
+            <div class="card" id="myBtn3"><img src="football.png"/>
+              <div class="info">
+                <h1>FOOTBALL CLUB</h1>
+              </div>
+            </div>
+
+            <div id="myModal3" class="modal3">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close3">&times;</span>
+                <img src="foot.png" alt="" class="popcard">
+                <div class="content">
+                  <h1 class="club-name">Football Club</h1>
+                <p class="para">
+                  The Indian Society for Technical Education (ISTE) is the leading National Professional non-profit making Society for the Technical Education System in our country with the motto of Career Development of Teachers and Personality Development of Students and overall development of our Technical Education System.</p>
+                  <p class="president">
+                    President: 
+                    <p class="president_name">
+                      Parth Bihani
+                    </p>
+                    <p class="contact-president">
+                      Contact:- +91 9315507348
+                    </p>
+                    
+                  </p>
+                  <p class="Faculty">
+                    Faculty Incharge: 
+                    <p class="faculty_name">
+                      Mr. Kamal Bhatia, AP ECE Deptt
+                    </p>
+                    
+                    
+                  </p>
+                </div>
+                
+              </div>
+              <!-- <button value="submit">GALLERY</button> -->
+            </div>
+
+
+          </div>
+          
+            <!-- <button value="submit">GALLERY</button> -->
+          
+    </div>
+    <div class="main">
+        <div class="wrapper">
+            <div class="card" id="myBtn4" ><img src="basket.png">
+              <div class="info">
+                <h1>BASKETBALL CLUB</h1>
+              </div>
+            </div>
+            <div id="myModal4" class="modal4">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close4">&times;</span>
+                <img src="basket.png" alt="" class="popcard">
+                <div class="content">
+                  <h1 class="club-name">Basketball Club</h1>
+                <p class="para">
+                  A basketball club is a sports organization that focuses on promoting and developing the game of basketball. Typically, a basketball club is composed of a team or teams of players who compete in local, regional, or national leagues and tournaments.
+Basketball club often have youth programs and academies that provide coaching and training for young players, helping them to develop their skills and prepare for a future in the sport. Some clubs also organize camps and clinics to provide instruction and training for players of all ages
+
+</p>
+                  <p class="president">
+                    President: 
+                    <p class="president_name">
+                      Arpit Kumar Shukla
+                    </p>
+                    <p class="contact-president">
+                      Contact:- +91 6390540612
+                    </p>
+                    
+                  </p>
+                  <p class="Faculty">
+                    Faculty Incharge: 
+                    <p class="faculty_name">
+                      Mr. Ritesh Kumar Singh, AP CSE.
+                    </p>
+                    
+                    
+                  </p>
+                </div>
+                
+              </div>
+              <!-- <button value="submit">GALLERY</button> -->
+            </div>
+            
+
+            <div class="card" id="myBtn5"><img src="indoor.png"/>
+              <div class="info">
+                <h1>INDOOR GAMES</h1>
+              </div>
+            </div>
+
+            <div id="myModal5" class="modal5">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close5">&times;</span>
+                <img src="indoor.png" alt="" class="popcard">
+                <div class="content">
+                  <h1 class="club-name">Indoor Games Club</h1>
+                <p class="para">
+                  Niet Coding Club provides participating students an opportunity to learn the basics of computer programming in a team . The club's main focus is on creating applications, websites, games, stem/steam workshops, and other projects.
+
+</p>
+                  <p class="president">
+                    President: 
+                    <p class="president_name">
+                      Riya Bisht
+                    </p>
+                    <p class="contact-president">
+                      Contact:- +91 8076475243
+                    </p>
+                    
+                  </p>
+                  <p class="Faculty">
+                    Faculty Incharge: 
+                    <p class="faculty_name">
+                      Mr. Ankur Chaudhary, AP IT Deptt. 
+                    </p>
+                    
+                    
+                  </p>
+                </div>
+                
+              </div>
+              <!-- <button value="submit">GALLERY</button> -->
+            </div>
+            <div class="card" id="myBtn6"><img src="kabbadi1.png"/>
+              <div class="info">
+                <h1>KABBADI CLUB</h1>
+                <p></p>
+              </div>
+            </div>
+            <div id="myModal6" class="modal6">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close6">&times;</span>
+                <img src="kabbadi1.png" alt="" class="popcard">
+                <div class="content">
+                  <h1 class="club-name">Kabbadi Club </h1>
+                <p class="para">
+                  A Kabaddi club is a sports organization that provides opportunities for individuals to participate in the traditional Indian contact sport of Kabaddi. Our club typically offer training and coaching programs, organize competitive matches and tournaments, and foster a sense of community among their members
+
+</p>
+                  <p class="president">
+                    President: 
+                    <p class="president_name">
+                      Ishant Bachchas
+                    </p>
+                    <p class="contact-president">
+                      Contact:- +91 7830418204
+                    </p>
+                    
+                  </p>
+                  <p class="Faculty">
+                    Faculty Incharge: 
+                    <p class="faculty_name">
+                      Mr. Balram Sharma, Sports Incharge 
+                    </p>
+                    
+                    
+                  </p>
+                </div>
+                
+              </div>
+              <!-- <button value="submit">GALLERY</button> -->
+            </div>
+          </div>
+    </div>
+    <div class="main">
+        <div class="wrapper">
+            <div class="card" id="myBtn7" ><img src="yoga.png">
+              <div class="info">
+                <h1>YOGA CLUB</h1>
+              </div>
+            </div>
+            <div id="myModal7" class="modal7">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close7">&times;</span>
+                <img src="yoga.png" alt="" class="popcard">
+                <div class="content">
+                  <h1 class="club-name">Yoga Club </h1>
+                <p class="para">
+                  A yoga club is an organization that provides opportunities for individuals to practice and learn about the ancient Indian discipline of yoga. These clubs typically offer yoga classes and workshops, led by certified yoga instructors, as well as meditation sessions and other related activities.
+</p>
+                  <p class="president">
+                    President: 
+                    <p class="president_name">
+                      Shubhendu Parashar
+                    </p>
+                    <p class="contact-president">
+                      Contact:- +91 7544069162
+                    </p>
+                    
+                  </p>
+                  <p class="Faculty">
+                    Faculty Incharge: 
+                    <p class="faculty_name">
+                      Mr. Yaduvir Singh, AP, CS DS 
+                    </p>
+                    
+                    
+                  </p>
+                </div>
+                
+              </div>
+              <!-- <button value="submit">GALLERY</button> -->
+            </div>
+            <div class="card" id="myBtn8"><img src="athletics.png"/>
+              <div class="info">
+                <h1>ATHLETICS CLUB</h1>
+              </div>
+            </div>
+            <div id="myModal8" class="modal8">
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close8">&times;</span>
+                <img src="CYBER.png" alt="" class="popcard">
+                <div class="content">
+                  <h1 class="club-name">Athletic Club </h1>
+                <p class="para">
+                  Cyberhack club is related to cyber security and ethical hacking in which we try to make students aware of cyber attacks, like how their data is compromised. Different aspects of attacks how it is done and deeper knowledge of cyber security. And we try to teach how hacking is done, how you could be safe. 
+We make students know what actually hacking is, hacking is not how it looks like, what's the reality behind it.</p>
+                  <p class="president">
+                    President: 
+                    <p class="president_name">
+                      Suchit Bhardwaj
+                    </p>
+                    <p class="contact-president">
+                      Contact:- +91 8477826910
+                    </p>
+                    
+                  </p>
+                  <p class="Faculty">
+                    Faculty Incharge: 
+                    <p class="faculty_name">
+                      Mr. Sover Singh, AP, CSDS 
+                    </p>
+                    
+                    
+                  </p>
+                </div>
+                
+              </div>
+              <!-- <button value="submit">GALLERY</button> -->
+            </div>
+          </div>
+    </div>
+    <script src="cricket.js"></script>
+</body>
+</html>

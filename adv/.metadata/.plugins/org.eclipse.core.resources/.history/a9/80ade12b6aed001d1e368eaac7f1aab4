@@ -1,0 +1,56 @@
+package com.event;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class changepass
+ */
+@WebServlet("/changepass")
+public class changepass extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+    /**
+     * Default constructor. 
+     */
+    public changepass() {
+        // TODO Auto-generated constructor stub
+    }
+
+	
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		String Email=request.getParameter("email");
+		String cpassword=request.getParameter("password2");
+		PrintWriter out=response.getWriter();
+		try{
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/register","root","root");
+			PreparedStatement ps=con.prepareStatement("update admin_signup set cpassword=? where Email=?");
+			ps.setString(1,Email);
+			ps.setString(2,cpassword);
+			int i=ps.executeUpdate();
+			if(i>0)
+			{
+				out.println("true");
+			}
+			else{
+				response.sendRedirect("false");
+			}
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+
+}
